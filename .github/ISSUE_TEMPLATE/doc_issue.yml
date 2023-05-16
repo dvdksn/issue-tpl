@@ -24,6 +24,8 @@ body:
         - I can't find what I'm looking for
         - There's a problem with the website
         - Other
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Description
