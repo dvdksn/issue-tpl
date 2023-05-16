@@ -26,7 +26,6 @@ body:
     attributes:
       label: Comment
       description: Do you have any additional information to share?
-      placeholder: Tell us what you see!
-      value: "I think this points to the wrong page..."
+      placeholder: "I think this points to the wrong page..."
     validations:
       required: false
