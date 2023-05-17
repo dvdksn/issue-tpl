@@ -1,6 +1,7 @@
 # https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-githubs-form-schema
 name: Broken link
 description: Four-oh-four!
+title: '[404]: <link text>'
 labels:
   - status/triage
 
@@ -16,8 +17,8 @@ body:
   - type: input
     id: target
     attributes:
-      label: Link target
-      description: What was the link target?
+      label: Broken link
+      description: Where does the broken link point to?
       placeholder: https://docs.docker.com/
     validations:
       required: true

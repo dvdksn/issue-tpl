@@ -15,3 +15,6 @@ contact_links:
   - name: Docker Desktop for Linux
     url: https://github.com/docker/for-linux
     about: Bug reports for Docker Desktop for Linux 
+  - name: Docker Compose
+    url: https://github.com/docker/compose
+    about: Bug reports for Docker Compose
